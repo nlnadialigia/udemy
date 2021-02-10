@@ -1,33 +1,53 @@
-<p align="center">
-  <img src="./assets/logo.png" width=200>
-  <h2>NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID</h2>
-</p>
+<p align="center"><img src="./assets/logo.png" width=200></p>
+<h2 align="center">NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID</h2>
 
 ---
 
 <p align="center">
-  <img alt="Made by Nadia Ligia" src="https://img.shields.io/badge/made%20by-Nadia%20Ligia-informational">
-  
-  <a href="license.md">
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-informational">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/nlnadialigia/udemy" />
+
+  <img alt="Repo size" src="https://img.shields.io/github/repo-size/nlnadialigia/udemy"/>
+   
+  <a href="./license.md">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-informational"/>
   </a>
 </p>
 
 ---
+
+<p align="center">
+  <a href="#-information_source-sobre-o-projeto">Sobre</a> •
+  <a href="#-open_file_folder-aulas">Aulas</a> • 
+  <a href="#-woman_office_worker-tecnologias">Autora</a> • 
+  <a href="#-pencil-licença">Licença</a>
+</p>
 <br>
 
-# Sobre
+# ℹ️ Sobre o projeto 
 
-Repositório dedicado a organizar as aulas do curso.
-
-<br>
-
-# Aulas
-1. [Configurando dependências](https://github.com/nlnadialigia/clean-node-api-config/)
-<!-- 2. [Clean Architecture]() -->
+<h3>Repositório dedicado a documentar as aulas do curso.<br>
+Este repositório será dividido por aula e manterá o link para o projeto completo.</h3>
 
 <br>
 
-# Licença 
+# 📂 Aulas
+<!-- 0. [Projeto]() -->
+<!-- 1. [Configurando dependências](./aula01) -->
+<!-- 2. [Clean Architecture](./aula02) -->
+
+<br>
+
+# 👩‍💼 Autora
+
+ <img style="border-radius: 50%;" src="./assets/picture.jpg" width="100px;" alt="Picture"/>
+ <br>
+ <p><b>Nádia Ligia</b></p>
+
+ [![Linkedin Badge](https://img.shields.io/badge/-nlnadialigia-blueviolet?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nlnadialigia/)](https://www.linkedin.com/in/nlnadialigia/) 
+[![Gmail Badge](https://img.shields.io/badge/-nlnadialigia@gmail.com-blueviolet?style=flat&logo=Gmail&logoColor=white&link=mailto:nlnadialigia@gmail.com)](mailto:nlnadialigia@gmail.com)
+
+<br>
+
+# 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
