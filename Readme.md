@@ -18,7 +18,7 @@
 <p align="center">
   <a href="#-information_source-sobre-o-projeto">Sobre</a> •
   <a href="#-open_file_folder-aulas">Aulas</a> • 
-  <a href="#-woman_office_worker-tecnologias">Autora</a> • 
+  <a href="#-woman_office_worker-autora">Autora</a> • 
   <a href="#-pencil-licença">Licença</a>
 </p>
 <br>
@@ -31,8 +31,9 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 <br>
 
 # 📂 Aulas
-<!-- 0. [Projeto]() -->
-<!-- 1. [Configurando dependências](./aula01) -->
+[0. Projeto](https://github.com/nlnadialigia/clean-node-api.git)
+
+[1. Configurando dependências](./aula01)
 <!-- 2. [Clean Architecture](./aula02) -->
 
 <br>
@@ -40,7 +41,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 # 👩‍💼 Autora
 
  <img style="border-radius: 50%;" src="./assets/picture.jpg" width="100px;" alt="Picture"/>
- <br>
  <p><b>Nádia Ligia</b></p>
 
  [![Linkedin Badge](https://img.shields.io/badge/-nlnadialigia-blueviolet?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nlnadialigia/)](https://www.linkedin.com/in/nlnadialigia/) 
