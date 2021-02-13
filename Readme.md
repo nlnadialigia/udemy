@@ -30,13 +30,13 @@
 
 # 📂 Cursos
 
-## 🗃️ [Node, Typescript, TDD, DDD, Clean Architecture e SOLID](./clean-node-api)
+### 🗃️ [Node, Typescript, TDD, DDD, Clean Architecture e SOLID](./clean-node-api)
 
-## 🗃️ [Javascript - Curso Completo com 6 projetos Reais](./js-full)
+### 🗃️ [Javascript - Curso Completo com 6 projetos Reais](./js-full)
 
-## 🗃️ [Curso básico de APIs com Nodejs+Express+Mongodb](./api-node-mongodb)
+### 🗃️ [Curso básico de APIs com Nodejs+Express+Mongodb](./api-node-mongodb)
 
-## 🗃️ [Aprenda Javascript, jQuery, Ajax no Zero na prática](./jjaz)
+### 🗃️ [Aprenda Javascript, jQuery, Ajax no Zero na prática](./jjaz)
 
 <br>
 

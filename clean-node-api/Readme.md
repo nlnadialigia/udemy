@@ -32,23 +32,16 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 # 📂 Aulas
 
-
-<br>
-
 ### 📔 [0. Projeto](https://github.com/nlnadialigia/clean-node-api.git)
 <br>
 
-## 📚 Seção 1: Introdução
----
-<br>
+### 📚 Seção 1: Introdução
 
 - [Configurando dependências](./aula01)
 
 <br>
 
-## 📚 Seção 2: Signup API - Presentation Layer
----
-<br>
+### 📚 Seção 2: Signup API - Presentation Layer
 
 - [Criando o SignUpController, validando o request e criando erros personalizados](./aula02-a)
 
@@ -59,25 +52,19 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 <!-- [Integrando com o AddAccount Usecase]() -->
 <br>
 
-## 📚 Seção 3: Jest
----
-<br>
+### 📚 Seção 3: Jest
 
 <!-- [Configurando o Jest e criando scripts de testes]() -->
 
 <br>
 
-## 📚 Seção 4: Utils Layer
----
-<br>
+### 📚 Seção 4: Utils Layer
 
 <!-- [Criando o EmailValidatorAdapter e mockando o validator]() -->
 
 <br>
 
-## 📚 Seção 5: SignUp API - Data Layer
----
-<br>
+### 📚 Seção 5: SignUp API - Data Layer
 
 <!-- [Criando o DbAddAccount e integrando com o Encrypter]()
 
@@ -85,9 +72,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 Seção 6: SignUp API - Infra Layer
----
-<br>
+### 📚 Seção 6: SignUp API - Infra Layer
 
 <!-- [Criando o BcryptAdapter e mockando o bcrypt]()
 
@@ -97,9 +82,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 Seção 7: SignUp API - Main Layer
----
-<br>
+### 📚 Seção 7: SignUp API - Main Layer
 
 <!-- ▶️ Testando middlewares do express
 
@@ -109,9 +92,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 8: Bônus
----
-<br>
+### 📚 8: Bônus
 
 <!-- ▶️ Testando a conexão com o MongoDb
 
@@ -127,9 +108,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 9: Login API - Presentation
----
-<br>
+### 📚 9: Login API - Presentation
 
 <!-- ▶️ Criando o LoginController e validando o request
 
@@ -147,9 +126,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 10: Login API - Data Layer
----
-<br>
+### 📚 10: Login API - Data Layer
 
 <!-- ▶️ Criando o DbAuthentication e integrando com o LoadAccountByEmailRepository
 
@@ -157,17 +134,13 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 11: Bônus
----
-<br>
+### 📚 11: Bônus
 
 <!-- ▶️ Segurança -->
 
 <br>
 
-## 📚 12: Login API - Infra Layer
----
-<br>
+### 📚 12: Login API - Infra Layer
 
 <!-- ▶️ Incluindo o HashComparer ao BcryptAdapter
 
@@ -177,9 +150,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 13: Login API - Main Layer
----
-<br>
+### 📚 13: Login API - Main Layer
 
 <!-- ▶️ Refatorando o projeto
 
@@ -187,9 +158,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 14: Bônus
----
-<br>
+### 📚 14: Bônus
 
 <!-- ▶️ Subindo a API para o Heroku
 
@@ -205,9 +174,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 15: SignUp API - Ajustes
----
-<br>
+### 📚 15: SignUp API - Ajustes
 
 <!-- ▶️ Alterando o SignUp para retornar um token de acesso
 
@@ -219,9 +186,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 16: AddSurvey API
----
-<br>
+### 📚 16: AddSurvey API
 
 <!-- ▶️ Criando o AddSurveyController
 
@@ -233,9 +198,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 17: Criando Middleware de Autenticação
----
-<br>
+### 📚 17: Criando Middleware de Autenticação
 
 <!-- ▶️ Criando o AuthMiddleware e fazendo os primeiros testes
 
@@ -251,17 +214,13 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 18: Bônus
----
-<br>
+### 📚 18: Bônus
 
 <!-- ▶️ Integração contínua -->
 
 <br>
 
-## 📚 19: LoadSurveys API
----
-<br>
+### 📚 19: LoadSurveys API
 
 <!-- ▶️ Criando o LoadSurveysController
 
@@ -273,9 +232,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 20: Bônus
----
-<br>
+### 📚 20: Bônus
 
 <!-- ▶️ Modularizando os paths dos imports
 
@@ -285,9 +242,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 21: SaveSurveyResult API
----
-<br>
+### 📚 21: SaveSurveyResult API
 
 <!-- ▶️ Criando os Models e UseCases
 
@@ -309,9 +264,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 22: Refactor
----
-<br>
+### 📚 22: Refactor
 
 <!-- ▶️ Padronizando nomenclaturas
 
@@ -325,9 +278,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 23: Bônus - Swagger
----
-<br>
+### 📚 23: Bônus - Swagger
 
 <!-- ▶️ Integrando a nossa API com o Swagger
 
@@ -345,9 +296,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 24: LoadSurveyResult API
----
-<br>
+### 📚 24: LoadSurveyResult API
 
 <!-- ▶️ Alterando o retorno do SurveyResult
 
@@ -371,9 +320,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 25: Bônus
----
-<br>
+### 📚 25: Bônus
 
 <!-- ▶️ Migrando de Stub para Spy
 
@@ -389,9 +336,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 26: Melhorando a Arquitetura
----
-<br>
+### 📚 26: Melhorando a Arquitetura
 
 <!-- ▶️ Refatorando os testes
 
@@ -423,9 +368,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 <br>
 
-## 📚 27: GraphQL
----
-<br>
+### 📚 27: GraphQL
 
 <!-- ▶️ Criando o Schema para o Login
 
