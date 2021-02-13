@@ -32,18 +32,11 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 # 📂 Aulas
 
+### 📔 [Projeto](https://github.com/nlnadialigia/jjaz.git)
 
-<br>
+### 📚 Seção 1: Primeiros Passos
 
-## 📔 [Projeto]()
-<br>
-
-
-## 📚 [Seção 1: Primeiros Passos](./aula01)
----
-<br>
-
-▶️ Primeiros passos com a linguagem Javascript
+<!-- ▶️ Primeiros passos com a linguagem Javascript
 
 ▶️ Sintaxe
 
@@ -59,15 +52,11 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 ▶️ Folha de Exercícios n. 1
 
-▶️ Folha de Exercícios n. 1 - Resolução
+▶️ Folha de Exercícios n. 1 - Resolução -->
 
-<br>
+### 📚 Seção 2: Javascript Básico (Parte 1)
 
-## 📚 [Seção 2: Javascript Básico (Parte 1)](./aula02)
----
-<br>
-
-▶️ DOM - Document Object Model
+<!-- ▶️ DOM - Document Object Model
 
 ▶️ Trabalhando com o DOM
 
@@ -83,15 +72,11 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 ▶️ Folha de Exercícios n. 2 - Resolução (Parte 1)
 
-▶️ Folha de Exercícios n. 2 - Resolução (Parte 2)
+▶️ Folha de Exercícios n. 2 - Resolução (Parte 2) -->
 
-<br>
+### 📚 Seção 3: Javascript Básico (Parte 2)
 
-## 📚 [Seção 3: Javascript Básico (Parte 2)](./aula03)
----
-
-<br>
-▶️ Eventos
+<!-- ▶️ Eventos
 
 ▶️ Manipulação do CSS
 
@@ -109,15 +94,11 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 ▶️ Folha de Exercícios n. 3 - Resolução (Parte 1)
 
-▶️ Folha de Exercícios n. 3 - Resolução (Parte 2)
+▶️ Folha de Exercícios n. 3 - Resolução (Parte 2) -->
 
-<br>
+### 📚 Seção 4: Projeto 1
 
-## 📚 [Seção 4: Projeto 1](./aula04)
----
-<br>
-
-▶️ Apresentação do Projeto 1
+<!-- ▶️ Apresentação do Projeto 1
 
 ▶️ Menu Mobile
 
@@ -129,15 +110,11 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 ▶️ Data Dinâmica no Footer
 
-▶️ Mapa do Google Maps em Javascript
+▶️ Mapa do Google Maps em Javascript -->
 
-<br>
+### 📚 Seção 5: Javascript Intermediário
 
-## 📚 Seção 5: Javascript Intermediário
----
-<br>
-
-▶️ BOM (Browser Object Model)
+<!-- ▶️ BOM (Browser Object Model)
 
 ▶️ Local Storage
 
@@ -165,15 +142,11 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 ▶️ Resolução Folha n. 4 (Cronômetro - Parte 1)
 
-▶️ Resolução Folha n. 4 (Cronômetro - Parte 2)
+▶️ Resolução Folha n. 4 (Cronômetro - Parte 2) -->
 
-<br>
+### 📚 Seção 6: jQuery
 
-## 📚 Seção 6: jQuery
----
-<br>
-
-▶️ jQuery - Introdução
+<!-- ▶️ jQuery - Introdução
 
 ▶️ jQuery - Sintaxe
 
@@ -191,15 +164,11 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 ▶️ jQuery - Animate
 
-▶️ jQuery - Métodos em Cadeia
+▶️ jQuery - Métodos em Cadeia -->
 
-<br>
+### 📚 Seção 7: Projeto 2 - Orçamento Online
 
-## 📚 Seção 7: Projeto 2 - Orçamento Online
-___
-<br>
-
-▶️ Apresentação
+<!-- ▶️ Apresentação
 
 ▶️ Cálculo do Valor Total
 
@@ -211,15 +180,11 @@ ___
 
 ▶️ Atualização Inicial dos Filtros
 
-▶️ localStorage e Ajustes Finais
+▶️ localStorage e Ajustes Finais -->
 
-<br>
+### 📚 Seção 8: Javascript Intermediário/Avançado
 
-## 📚 Seção 8: Javascript Intermediário/Avançado
----
-<br>
-
-▶️ Funções Callback
+<!-- ▶️ Funções Callback
 
 ▶️ Lidando com Erros (Try, Catch e Throw)
 
@@ -229,15 +194,11 @@ ___
 
 ▶️ Namespaces
 
-▶️ JSON
+▶️ JSON -->
 
-<br>
+### 📚 Seção 9: AJAX
 
-## 📚 Seção 9: AJAX
----
-<br>
-
-▶️ AJAX - Introdução
+<!-- ▶️ AJAX - Introdução
 
 ▶️ AJAX - Request
 
@@ -255,15 +216,11 @@ ___
 
 ▶️ Resolução Folha n. 5 - Desafio do Quiz (Parte 1)
 
-▶️ Resolução Folha n. 5 - Desafio do Quiz (Parte 2)
+▶️ Resolução Folha n. 5 - Desafio do Quiz (Parte 2) -->
 
-<br>
+### 📚 Seção 10: Projeto 3 - App de Previsão do Tempo
 
-## 📚 Seção 10: Projeto 3 - App de Previsão do Tempo
----
-<br>
-
-▶️ Apresentação do Projeto
+<!-- ▶️ Apresentação do Projeto
 
 ▶️ Registro no Accuweather
 
@@ -293,7 +250,7 @@ ___
 
 ▶️ Implementação da Caixa de Pesquisa
 
-▶️ Controle de Mensagens de Erro
+▶️ Controle de Mensagens de Erro -->
 
 <br>
 
