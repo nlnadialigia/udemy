@@ -33,12 +33,10 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 # 📂 Aulas
 
 ### 📔 [0. Projeto](https://github.com/nlnadialigia/clean-node-api.git)
-<br>
 
 ### 📚 Seção 1: Introdução
 
 - [Configurando dependências](./aula01)
-<br>
 
 ### 📚 Seção 2: Signup API - Presentation Layer
 
@@ -49,24 +47,20 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 <!-- [Testando exceções e integrando com o EmailValidator]() -->
 
 <!-- [Integrando com o AddAccount Usecase]() -->
-<br>
 
 ### 📚 Seção 3: Jest
 
 <!-- [Configurando o Jest e criando scripts de testes]() -->
-<br>
 
 ### 📚 Seção 4: Utils Layer
 
 <!-- [Criando o EmailValidatorAdapter e mockando o validator]() -->
-<br>
 
 ### 📚 Seção 5: SignUp API - Data Layer
 
 <!-- [Criando o DbAddAccount e integrando com o Encrypter]()
 
 [Integrando com o AddAccountRepository]() -->
-<br>
 
 ### 📚 Seção 6: SignUp API - Infra Layer
 
@@ -75,7 +69,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 [Configurando MongoDb em memória]()
 
 [Testando o MongoDb]() -->
-<br>
 
 ### 📚 Seção 7: SignUp API - Main Layer
 
@@ -84,7 +77,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Criando teste de integração para o SignUp
 
 ▶️ Fazendo a composição do SignUp e desacoplando do express -->
-<br>
 
 ### 📚 8: Bônus
 
@@ -99,7 +91,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Persistindo Log de Erro no MongoDb
 
 ▶️ Criando Tag e fazendo Push para o GitHub -->
-<br>
 
 ### 📚 9: Login API - Presentation
 
@@ -116,19 +107,16 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Aplicando o Design Pattern Composite 3/3
 
 ▶️ Refatorando o código -->
-<br>
 
 ### 📚 10: Login API - Data Layer
 
 <!-- ▶️ Criando o DbAuthentication e integrando com o LoadAccountByEmailRepository
 
 ▶️ Integrando o DbAuthentication com mais 3 dependências -->
-<br>
 
 ### 📚 11: Bônus
 
 <!-- ▶️ Segurança -->
-<br>
 
 ### 📚 12: Login API - Infra Layer
 
@@ -137,14 +125,12 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Criando o JwtAdapter e mockando o jsonwebtoken
 
 ▶️ Incluindo mais duas interfaces no AccountMongoRepository -->
-<br>
 
 ### 📚 13: Login API - Main Layer
 
 <!-- ▶️ Refatorando o projeto
 
 ▶️ Fazendo a composição do Login -->
-<br>
 
 ### 📚 14: Bônus
 
@@ -159,7 +145,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Usando Nodemon no Docker com Typescript
 
 ▶️ Adicionando documentação com casos de uso -->
-<br>
 
 ### 📚 15: SignUp API - Ajustes
 
@@ -170,7 +155,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Impedindo criação de contas com Email existente
 
 ▶️ Refatorando a arquitetura -->
-<br>
 
 ### 📚 16: AddSurvey API
 
@@ -181,7 +165,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Criando o SurveyMongoRepository
 
 ▶️ Criando a composição do AddSurvey -->
-<br>
 
 ### 📚 17: Criando Middleware de Autenticação
 
@@ -196,12 +179,10 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Implementando a interface LoadAccountByToken no AccountMongoRepository
 
 ▶️ Aplicando o AuthMiddleware na rota de criar enquete -->
-<br>
 
 ### 📚 18: Bônus
 
 <!-- ▶️ Integração contínua -->
-<br>
 
 ### 📚 19: LoadSurveys API
 
@@ -212,7 +193,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Incluindo o LoadSurveysRepository ao SurveyMongoRepository
 
 ▶️ Criando a composição do LoadSurveys -->
-<br>
 
 ### 📚 20: Bônus
 
@@ -221,7 +201,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Utilizando Type Alias
 
 ▶️ Usando Utility Types do Typescript -->
-<br>
 
 ### 📚 21: SaveSurveyResult API
 
@@ -242,7 +221,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Criando o SaveSurveyResultController 2/2
 
 ▶️ Fazendo a composição do SaveSurveyResult -->
-<br>
 
 ### 📚 22: Refactor
 
@@ -255,7 +233,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Último ajuste do refactor!
 
 ▶️ Refatorando as Promises -->
-<br>
 
 ### 📚 23: Bônus - Swagger
 
@@ -272,7 +249,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Criando docs para a API de Criar Enquete
 
 ▶️ Criando docs para a API de Responder Enquete -->
-<br>
 
 ### 📚 24: LoadSurveyResult API
 
@@ -295,7 +271,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Criando o LoadSurveyResultController
 
 ▶️ Fazendo a composição do LoadSurveyResult -->
-<br>
 
 ### 📚 25: Bônus
 
@@ -310,7 +285,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Ajuste no DbLoadAccountByToken
 
 ▶️ Ajuste no SurveyResult -->
-<br>
 
 ### 📚 26: Melhorando a Arquitetura
 
@@ -341,7 +315,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Refatorando o LoadSurveysUseCase
 
 ▶️ Refatorando o LoadSurveyResult e SaveSurveyResult UseCases -->
-<br>
 
 ### 📚 27: GraphQL
 
@@ -364,7 +337,6 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 ▶️ Adicionando testes de integração para as queries de SurveyResult
 
 ▶️ Fazendo merge e deploy -->
-<br>
 
 # 👩‍💼 Autora
 <img style="border-radius: 50%;" src="../assets/picture.jpg" width="100px;" alt="Picture"/>
