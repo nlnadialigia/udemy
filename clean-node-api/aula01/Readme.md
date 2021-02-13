@@ -1,4 +1,4 @@
-<p align="center"><img src="../assets/logo.png" width=200></p>
+<p align="center"><img src="../../assets/logo.png" width=200></p>
 <h3 align="center">NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID</h3>
 
 ---
@@ -25,7 +25,7 @@
 
 # ℹ️ Sobre o projeto 
 
-Configuração do projeto ministrado no curso para padronização dos commits, código e testes.
+<h3>Configuração do projeto ministrado no curso para padronização dos commits, código e testes.</h3>
 
 <br>
 
@@ -142,7 +142,7 @@ export default {
 
 # 👩‍💼 Autora
 
- <img style="border-radius: 50%;" src="../assets/picture.jpg" width="100px;" alt="Picture"/>
+ <img style="border-radius: 50%;" src="../../assets/picture.jpg" width="100px;" alt="Picture"/>
  <p><b>Nádia Ligia</b></p>
 
  [![Linkedin Badge](https://img.shields.io/badge/-nlnadialigia-blueviolet?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nlnadialigia/)](https://www.linkedin.com/in/nlnadialigia/) 
