@@ -1,5 +1,4 @@
 <p align="center"><img src="./assets/logo.png" width=200></p>
-<h2 align="center">NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID</h2>
 
 ---
 
@@ -17,7 +16,7 @@
 
 <p align="center">
   <a href="#-information_source-sobre-o-projeto">Sobre</a> •
-  <a href="#-open_file_folder-aulas">Aulas</a> • 
+  <a href="#-open_file_folder-cursos">Cursos</a> • 
   <a href="#-woman_office_worker-autora">Autora</a> • 
   <a href="#-pencil-licença">Licença</a>
 </p>
@@ -25,64 +24,23 @@
 
 # ℹ️ Sobre o projeto 
 
-<h3>Repositório dedicado a documentar as aulas do curso.<br>
-Este repositório será dividido por aula e manterá o link para o projeto completo.</h3>
+<h3>Repositório dedicado a documentar os cursos realizados na Udemy.<br>
 
 <br>
 
-# 📂 Aulas
-<br>
+# 📂 Cursos
 
-### [0. Projeto](https://github.com/nlnadialigia/clean-node-api.git)
-<br>
+## 🗃️ [Node, Typescript, TDD, DDD, Clean Architecture e SOLID](./clean-node-api)
 
-### 📚 Seção 1: Introdução
-[Configurando dependências](./aula01)
+## 🗃️ [Javascript - Curso Completo com 6 projetos Reais](./js-full)
 
-<br>
+## 🗃️ [Curso básico de APIs com Nodejs+Express+Mongodb](./api-node-mongodb)
 
-### 📚 Seção 2: Signup API - Presentation Layer
-
-<!-- [Criando o SignUpController e validando o request]() -->
-
-<!-- [Criando erros personalizados]() -->
-
-<!-- [Utilizando Mocks da maneira correta]() -->
-
-<!-- [Testando exceções e integrando com o EmailValidator]() -->
-
-<!-- [Integrando com o AddAccount Usecase]() -->
-<br>
-
-### 📚 Seção 3: Jest
-
-<!-- [Configurando o Jest e criando scripts de testes]() -->
+## 🗃️ [Aprenda Javascript, jQuery, Ajax no Zero na prática](./jjaz)
 
 <br>
 
-### 📚 Seção 4: Utils Layer
 
-<!-- [Criando o EmailValidatorAdapter e mockando o validator]() -->
-
-<br>
-
-### 📚 Seção 5: SignUp API - Data Layer
-
-<!-- [Criando o DbAddAccount e integrando com o Encrypter]()
-
-[Integrando com o AddAccountRepository]() -->
-
-<br>
-
-### 📚 Seção 6: SignUp API - Infra Layer
-
-<!-- [Criando o BcryptAdapter e mockando o bcrypt]()
-
-[Configurando MongoDb em memória]()
-
-[Testando o MongoDb]() -->
-
-<br>
 
 # 👩‍💼 Autora
 <br>
