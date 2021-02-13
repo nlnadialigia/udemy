@@ -1,6 +1,5 @@
 <p align="center"><img src="../assets/logo.png" width=200></p>
 <h3 align="center">NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID</h3>
-<h2 align="center">Configurando as dependências</h2>
 
 ---
 
