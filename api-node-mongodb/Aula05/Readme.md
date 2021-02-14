@@ -1,4 +1,3 @@
-
 <p align="center"><img src="../../assets/logo.png" width=200></p>
 <h2 align="center">Curso básico de APIs com Nodejs+Express+Mongodb</h2>
 
