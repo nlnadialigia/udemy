@@ -35,13 +35,11 @@
 
 ▶️ [Iniciando o projeto e criando endpoints](./aula01)
 
-▶️ Trabalhando com rotas
+▶️ [Trabalhando com rotas](./aula02)
 
-▶️ Conectando mongodb com mongoose
+▶️ [Conectando mongodb com mongoose](./aula03)
 
-▶️ DICA para quem teve problema de conexão com o MongoDB Atlas
-
-▶️ Criando schemas do mongoose
+▶️ [Criando schemas do mongoose](./aula04)
 
 ▶️ Criptografia de campos de senha com bcrypt
 

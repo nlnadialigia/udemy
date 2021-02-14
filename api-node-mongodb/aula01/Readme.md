@@ -23,7 +23,7 @@
 </p>
 <br>
 
-## ℹ️ Sobre o projeto
+## ℹ️ Sobre a aula
 
 <h3>Aula de iniciação do projeto e criação de endpoints básicos.</h3>
 

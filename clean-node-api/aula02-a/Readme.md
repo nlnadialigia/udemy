@@ -23,7 +23,7 @@
 </p>
 <br>
 
-# ℹ️ Sobre o projeto 
+# ℹ️ Sobre a aula
 
 <h3>Criação do SignUpController, validando o request e criando erros personalizados.</h3>
 <br>

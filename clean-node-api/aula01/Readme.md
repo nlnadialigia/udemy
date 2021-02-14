@@ -23,7 +23,7 @@
 </p>
 <br>
 
-# ℹ️ Sobre o projeto 
+# ℹ️ Sobre a aula
 
 <h3>Configuração do projeto ministrado no curso para padronização dos commits, código e testes.</h3>
 

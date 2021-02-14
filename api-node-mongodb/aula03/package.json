@@ -5,7 +5,7 @@
   "repository": "https://github.com/nlnadialigia/api-node-mongodb",
   "author": "Nadia <nlnadialigia@gmail.com>",
   "license": "MIT",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "lint": "eslint . --fix",
     "dev": "nodemon app.js"

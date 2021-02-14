@@ -5,6 +5,7 @@
   "repository": "https://github.com/nlnadialigia/api-node-mongodb",
   "author": "Nadia <nlnadialigia@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "lint": "eslint . --fix",
     "dev": "node app.js"

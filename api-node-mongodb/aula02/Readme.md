@@ -23,7 +23,7 @@
 </p>
 <br>
 
-## ℹ️ Sobre o projeto
+## ℹ️ Sobre a aula
 
 <h3>Aula de criação das rotas principais e de usuários em arquivos individualizados e conexão com o banco de dados.</h3>
 
@@ -67,6 +67,7 @@ router.post('/create', (request, response) => {
   return response.send({ message: 'Seu usuário foi criado' });
 });
 ```
+<br>
 
 # 👩‍💼 Autora
 <img style="border-radius: 50%;" src="../../assets/picture.jpg" width="100px;" alt="Picture"/>
