@@ -45,7 +45,7 @@
 
 ▶️ [Async await e o fim do callback hell](./aula06)
 
-▶️ Autenticação com jwt (jsonwebtoken)
+▶️ [Autenticação com jwt (jsonwebtoken)](./aula07)
 
 ▶️ Retornando status codes apropriados
 
