@@ -15,15 +15,25 @@
 
 # ℹ️ Sobre o projeto 
 
-<h3>Repositório dedicado a documentar as aulas e projetos desenvolvidos no curso.</h3><br>
+<h3>Curso básico criação de API's com nodejs + express + mongo. Nesse curso foi ensinado conceitos básicos de node.js com express e mongodb, como criação de endpoints, rotas, banco de dados (com modelagem utilizando mongoose), criptografia utilizando bcrypt, autenticação utilizando jwt (jsonwebtoken), um pouco de async await do javascript, além de http status codes apropriados para as respostas da API. Também foram ensinados alguns macetes e boas práticas de javascript.</h3><br>
 
 # 📂 Aulas
 
-### [Projeto]()
+## 📝 Índice
+
+- Criação de API's robustas utilizando Nodejs + Express + Mongodb
+- Modelagem básica de banco de dados
+- Melhores práticas de javascript
+- Criptografia de campos sensíveis
+- Autenticação de usuários
+- Organizar seus projetos em Nodejs
+<br>
+
+### [Projeto](https://github.com/nlnadialigia/api-node-mongodb.git)
 
 ### 📚 Seção 1: Curso básico de APIs com Nodejs + Express + Mongodb
 
-▶️ Iniciando o projeto e criando endpoints
+▶️ [Iniciando o projeto e criando endpoints](./aula01)
 
 ▶️ Trabalhando com rotas
 
