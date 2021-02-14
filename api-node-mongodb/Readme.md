@@ -47,7 +47,7 @@
 
 ▶️ [Autenticação com jwt (jsonwebtoken)](./aula07)
 
-▶️ Retornando status codes apropriados
+▶️ [Retornando status codes apropriados](./aula08)
 
 ▶️ Configuração final do projeto
 
