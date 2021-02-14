@@ -25,48 +25,46 @@
 
 ## ℹ️ Sobre o projeto
 
-<h3>Aula de iniciação do projeto e criação de endpoints básicos.</h3>
+<h3>Aula de criação das rotas principais e de usuários em arquivos individualizados e conexão com o banco de dados.</h3>
 
 ## 📂 Tópicos
 <br>
 
-### 📚 Aula 01 - Iniciando Projeto e criando endpoints
+### 📚 Aula 02 - Trabalhando com rotas
 <br>
 
-▶️ Iniciar o projeto `yarn init`
+▶️ Criação da pasta para armazenar as rotas da api: `Routes`
 
-▶️ Criar o arquivo principal: `app.js`
+- `index.js` => rota genérica
+- `users.js` => rota relacionada a usuários
 
-▶️ Instalar o `express`
+▶️ Instanciar as rotas no arquivo principal da api.
 
-▶️ Criação básica da api
+▶️ **Routes/index.js**
 ```js
 import express from 'express';
-const app = express();
+const router = express.Router();
 
-app.listen(3030);
-
-export default app;
-```
-▶️ Criação do endpoint `get`
-```js
-app.get('/', (request, response) => {
-  return response.send({message: 'Tudo ok com o método GET!'});
+router.get('/', (request, response) => {
+  return response.send({ message: 'Tudo ok com o método GET da rota raiz' });
 });
-```
-▶️ Criação do endpoint `post`
-```js
-app.post('/', (request, response) => {
-  return response.send({message: 'Tudo ok com o método POST!'});
-});
-```
-▶️ Testar no Isnominia
 
-▶️ Criação de uma `query` para o endpoint `get`
+router.post('/', (request, response) => {
+  return response.send({ message: 'Tudo ok com o método POST da rota raiz' });
+});
+
+export default router;
+```
+
+▶️ **Routes/users.js**
+- código semelhante ao do `index.js`, alterando o endereço da rota e a mensagem
+
+▶️ Testar no Insomnia
+
+▶️ Criação da rota base para cadastro de usuários => `users.js`
 ```js
-app.get('/', (request, response) => {
-  let obj = request.query;
-  return response.send({message: `Tudo ok com o método GET! Você enviou o nome ${obj.name} com idade de ${obj.age} anos!`});
+router.post('/create', (request, response) => {
+  return response.send({ message: 'Seu usuário foi criado' });
 });
 ```
 
