@@ -1,0 +1,31 @@
+{
+  "name": "api-node-mongodb",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/nlnadialigia/api-node-mongodb",
+  "author": "Nadia <nlnadialigia@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "git-commit-msg-linter": "^3.0.0",
+    "husky": "4.3.8",
+    "lint-staged": "10.5.2",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.16"
+  }
+}

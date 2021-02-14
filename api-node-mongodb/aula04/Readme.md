@@ -25,7 +25,7 @@
 
 ## ℹ️ Sobre a aula
 
-<h3>Criação do schema de usuários e atualização das rotas para criação e consulta de usuários.</h3>
+<h3>Criação do schema de usuários e atualização das rotas para criação e consulta de usuários.</h3><br>
 
 ## 📂 Tópicos
 <br>

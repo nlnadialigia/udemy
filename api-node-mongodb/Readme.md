@@ -41,7 +41,7 @@
 
 ▶️ [Criando schemas do mongoose](./aula04)
 
-▶️ Criptografia de campos de senha com bcrypt
+▶️ [Criptografia de campos de senha com bcrypt](./aula05)
 
 ▶️ Async await e o fim do callback hell
 

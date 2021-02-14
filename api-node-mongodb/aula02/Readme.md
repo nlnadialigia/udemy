@@ -25,7 +25,7 @@
 
 ## ℹ️ Sobre a aula
 
-<h3>Aula de criação das rotas principais e de usuários em arquivos individualizados e conexão com o banco de dados.</h3>
+<h3>Aula de criação das rotas principais e de usuários em arquivos individualizados e conexão com o banco de dados.</h3><br>
 
 ## 📂 Tópicos
 <br>

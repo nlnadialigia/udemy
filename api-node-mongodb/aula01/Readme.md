@@ -25,7 +25,7 @@
 
 ## ℹ️ Sobre a aula
 
-<h3>Aula de iniciação do projeto e criação de endpoints básicos.</h3>
+<h3>Aula de iniciação do projeto e criação de endpoints básicos.</h3><br>
 
 ## 📂 Tópicos
 <br>
