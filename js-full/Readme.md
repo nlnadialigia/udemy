@@ -32,21 +32,31 @@
 
 ### 📚 Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
-▶️ Bem vindo ao Curso completo de JavaScript
-
-▶️ Conheça a plataforma Udemy e Certificado
-
 ▶️ Configurando ambiente (Git, Visual Studio Code e Chrome Developer Tools)
 
 ⁉️ Teste 1: Configurando o Ambiente, Instalando o Git
+- Qual o comando utilizado para clonar um repositório remoto com o seguinte endereço: git@github.com:hcodebr/curso-javascript-projeto-usuarios.git ?
+- Explique a diferença entre Git e GitHub.
+- O que é um Transpiler em linguagem de programação e em especial no JavaScript?
+- Qual comando utilizamos para clonar um repositório remoto?
 
 ▶️ Introdução ao JavaScript - Básico I
 
 ⁉️ Teste 2: JavaScript - Básico I
+- Qual comando podemos usar para mostrar informações no console?
+- Quais são os três tipos de declaração de variáveis nas novas versões do JavaScript?
+- Se quisermos criar um controle de fluxo e sabemos os possíveis valores para uma variável, ao invés de usar um if() gigante, podemos usar o condicional...
+- Quais tipos de operadores do JavaScript aprendemos na última aula?
+- O novo recurso do JavaScript que permite a inserção de códigos JS junto a uma string usando a crase se chama...
 
 ▶️ Introdução ao JavaScript - Básico II
 
-⁉️ Teste 3: JavaScript - Básico II -->
+⁉️ Teste 3: JavaScript - Básico II
+- Quais são os três tipos de função que há no JavaScript?
+- Qual método nativo do JavaScript é usado para criar um evento?
+- Qual função usamos para que o JavaScript interprete uma string como um script?
+- Queremos mostrar a data atual de acordo com o padrão usado na região de onde o usuário está acessando o sistema. Qual código JS abaixo atende a essa necessidade?
+- Podemos dizer, em poucas palavras, que uma classe é:
 
 
 ### 📚 Seção 2: Projeto Calculadora com JavaScript
