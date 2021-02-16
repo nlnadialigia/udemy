@@ -42,7 +42,7 @@ Este repositório será dividido por aula e manterá o link para o projeto compl
 
 - [Criando o SignUpController, validando o request e criando erros personalizados](./aula02-a)
 
-<!-- [Utilizando Mocks da maneira correta]() -->
+- [Utilizando Mocks da maneira correta](./aula2-b)
 
 <!-- [Testando exceções e integrando com o EmailValidator]() -->
 

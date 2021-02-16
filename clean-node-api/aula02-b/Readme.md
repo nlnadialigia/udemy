@@ -1,0 +1,202 @@
+<p align="center"><img src="../../assets/logo.png" width=200></p>
+<h3 align="center">NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID</h3>
+
+---
+
+<p align="center">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/nlnadialigia/udemy" />
+
+  <img alt="Repo size" src="https://img.shields.io/github/repo-size/nlnadialigia/udemy"/>
+   
+  <a href="./license.md">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-informational"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <a href="#-information_source-sobre-a-aula">Sobre</a> •
+  <a href="#-open_file_folder-tópicos">Tópicos</a> • 
+  <a href="#-woman_office_worker-autora">Autora</a> • 
+  <a href="#-pencil-licença">Licença</a>
+</p>
+<br>
+
+# ℹ️ Sobre a aula
+
+<h3>Utilizando Mocks de maneira correta</h3>
+<br>
+
+# 📂 Tópicos
+
+## ℹ️ Definição
+<br>
+
+O termo `Mock Objects` é utilizado para descrever um caso especial de objetos que imitam objetos reais para teste. Os objetos de teste (chamados de test doubles, em inglês) dividem em três categorias principais: os `spies`, os `stubs` e os `mocks` propriamente ditos.
+
+### 📌 Spy
+
+Spy é uma denominação dada a um objeto que grava suas interações com outros objetos. Eles particularmente úteis para testar callbacks, visto que temos propriedades que assumem valores true, false e outros de acordo com a chamada.
+
+### 📌 Stub
+
+Um stub é uma evolução de um spy. Em suma, um stub é um objeto com um comportamento fixo e previsível.
+
+Estes objetos são utilizados principalmente em dois casos:
+- Evitar alguma interface desnecessária com alguma dependência;
+- Alimentar o sistema com dados conhecidos. Então podemos forçar um determinado caminho.
+
+## 📌 Mocks
+
+Mocks são a evolução dos stubs, pois não substituem um único método, mas sim uma classe toda, mas somente implementa o método escolhido.
+
+<br>
+
+## 📂 signup.spec.ts
+<br>
+
+✔️ Mover a variável `sut` para que seja lida globalmente
+```ts
+const makeSut = (): SignUpController => {
+  return new SignUpController()
+}
+```
+<br>
+
+✔️ Refatorar o teste para utilização do `makeSut`
+
+💾 Comitar
+
+<br>
+
+✔️ **Validação do email**
+- será feito fora do SignupController, para que possa ser utilizado sempre que necessário, sem duplicação de código
+
+- passar todos os parâmetros para que a validação não caia em nenhum dos testes anteriores
+
+- criar o erro `InvalidParams`
+
+- como o SignupController não vai validar email, será necessário injetar uma dependência de alguém que saiba validar email => injetar no `makeSut` um `emailValidator`
+```ts
+const makeSut = (): SignUpController => {
+  class EmailValidatorStub {
+    isValid (email: string): boolean {
+      return true
+    }
+  }
+  const emailValidatorStub = new EmailValidatorStub()
+  return new SignUpController(emailValidatorStub)
+}
+```
+- na produção, criar uma intereface para o `emailValidator`, dentro da pasta `protocol` => `email-validator.ts`
+
+<br>
+
+## 📂 email-validator.ts
+
+```ts
+export interface EmailValidator {
+  isValid: (email: string) => boolean
+}
+```
+
+<br>
+
+## 📂 signup.ts
+
+✔️ Para a validação do teste é necessária a implementação da validação no modo produção.
+
+```ts
+export class SignUpController implements Controller {
+  private readonly emailValidator: EmailValidator
+
+  constructor (emailValidator: EmailValidator) {
+    this.emailValidator = emailValidator
+  }
+
+  handle (httpRequest: HttpRequest): HttpResponse {
+    const requiredFields = ['name', 'email', 'password', 'passwordConfirmation']
+    for (const field of requiredFields) {
+      if (!httpRequest.body[field]) {
+        return badRequest(new MissingParamError(field))
+      }
+    }
+    const isValid = this.emailValidator.isValid(httpRequest.body.email)
+    if (!isValid) {
+      return badRequest(new InvalidParamError('email'))
+    }
+  }
+}
+```
+
+<br>
+
+## 📂 signup.spec.ts
+
+✔️ alterar a `makeSut` de modo a retornar individualmente a `sut` e `emailValidatorStub`. Para isso faz-se necessária a criação de uma interface com os tipos de sut: `SutTypes`
+```ts
+interface SutTypes {
+  sut: SignUpController
+  emailValidatorStub: EmailValidator
+}
+```
+```ts
+const makeSut = (): SutTypes => {
+  class EmailValidatorStub implements EmailValidator {
+    isValid (email: string): boolean {
+      return true
+    }
+  }
+  const emailValidatorStub = new EmailValidatorStub()
+  const sut = new SignUpController(emailValidatorStub)
+  return {
+    sut,
+    emailValidatorStub
+  }
+}
+```
+
+✔️ alterar a variável `sut` dos teste de forma descontruída `{ sut }` para que os testes voltem a funcionar.
+
+✔️ incluir no teste de validação do email a variável `emailValidatorStub` e mocká-la como `false`
+
+```ts
+describe('SignUp Controller', () => {
+  test('Should return 400 if an invalid email is provided', () => {
+    const { sut, emailValidatorStub } = makeSut()
+    jest.spyOn(emailValidatorStub, 'isValid').mockReturnValueOnce(false)
+    const httpRequest = {
+      body: {
+        name: 'any_name',
+        email: 'invalid_email@mail.com',
+        password: 'any_password',
+        passwordConfirmation: 'any_password'
+      }
+    }
+    const httpResponse = sut.handle(httpRequest)
+    expect(httpResponse.statusCode).toBe(400)
+    expect(httpResponse.body).toEqual(new InvalidParamError('email'))
+  })
+})
+```
+
+**Para manter as boas práticas, sempre mockar como true e alterar individualmente no teste**
+
+💾 Comitar
+
+<br>
+
+# 👩‍💼 Autora
+
+ <img style="border-radius: 50%;" src="../../assets/picture.jpg" width="100px;" alt="Picture"/>
+ <p><b>Nádia Ligia</b></p>
+
+ [![Linkedin Badge](https://img.shields.io/badge/-nlnadialigia-blueviolet?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nlnadialigia/)](https://www.linkedin.com/in/nlnadialigia/) 
+[![Gmail Badge](https://img.shields.io/badge/-nlnadialigia@gmail.com-blueviolet?style=flat&logo=Gmail&logoColor=white&link=mailto:nlnadialigia@gmail.com)](mailto:nlnadialigia@gmail.com)
+
+<br>
+
+# 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
