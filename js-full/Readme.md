@@ -32,7 +32,7 @@
 
 ### 📚 Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
-<!-- ▶️ Bem vindo ao Curso completo de JavaScript
+▶️ Bem vindo ao Curso completo de JavaScript
 
 ▶️ Conheça a plataforma Udemy e Certificado
 
@@ -47,6 +47,7 @@
 ▶️ Introdução ao JavaScript - Básico II
 
 ⁉️ Teste 3: JavaScript - Básico II -->
+
 
 ### 📚 Seção 2: Projeto Calculadora com JavaScript
 
