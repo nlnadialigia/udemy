@@ -25,7 +25,8 @@
 
 # ℹ️ Sobre a aula
 
-<h3>Utilizando Mocks de maneira correta</h3>
+<h3>Utilizando Mocks de maneira correta e </h3>
+<h3>Testando exceções e integrando com o EmailValidator</h3>
 <br>
 
 # 📂 Tópicos
@@ -185,6 +186,130 @@ describe('SignUp Controller', () => {
 
 💾 Comitar
 
+<br>
+
+## 📂 signup.spec.ts
+✔️ Teste para verificar se o email está correto. O teste anterior somente testa se o email é valido e não se é o email correspondente.
+
+```ts
+test('Should call EmailValidator with correct email', () => {
+  const { sut, emailValidatorStub } = makeSut()
+  const isValidSpy = jest.spyOn(emailValidatorStub, 'isValid')
+  const httpRequest = {
+    body: {
+      name: 'any_name',
+      email: 'any_email@email.com',
+      password: 'any_password',
+      passwordConfirmation: 'any_password'
+    }
+  }
+  sut.handle(httpRequest)
+  expect(isValidSpy).toHaveBeenCalledWith('any_email@email.com')
+})
+```
+✔️ Para verificar, alterar o `IsValid` do `signup.ts` para qualquer email => o teste não passará.
+
+💾 Comitar
+
+## 📂 signup.spec.ts
+✔️ teste para retornar caso haja algum erro interno do sistema =: status(500)
+✔️ não poderá ser utilizada a variável `sut` porque está sempre criando um emailValidator como true e precisamos gerar uma instância que retorna uma exceção, ao invès de retornar true.
+```ts
+test('Should return 500 emailValidator throws', () => {
+  class EmailValidatorStub implements EmailValidator {
+    isValid(_email: string): boolean {
+      throw new Error()
+    }
+  }
+  const emailValidatorStub = new EmailValidatorStub()
+  const sut = new SignUpController(emailValidatorStub)
+
+  const httpRequest = {
+    body: {
+      name: 'any_name',
+      email: 'any_email@email.com',
+      password: 'any_password',
+      passwordConfirmation: 'any_password'
+    }
+  }
+  const httpResponse = sut.handle(httpRequest)
+  expect(httpResponse.statusCode).toBe(500)
+  expect(httpResponse.body).toEqual(new ServerError())
+})
+```
+
+### 📂 signup.ts
+✔️ Será necessário validar o statusCode 500, utilizando o `try/catch`
+```ts
+handle(httpRequest: HttpRequest): HttpResponse {
+  try {
+    const requiredFields = ['name', 'email', 'password', 'passwordConfirmation']
+
+    for (const field of requiredFields) {
+      if (!httpRequest.body[field]) {
+        return badRequest(new MissingParamError(field))
+      }
+    }
+    const isValid = this.emailValidator.isValid(httpRequest.body.email)
+
+    if (!isValid) {
+      return badRequest(new InvalidParamError('email'))
+    }
+  } catch (error) {
+    return {
+      statusCode: 500,
+      body: new ServerError()
+    }
+  }
+}
+```
+
+💾 Comitar
+
+## 📂 Refactor
+
+📚 Criar `badRequest` na pasta **http-helpers** para o `statusCode: 500`
+```ts
+export const serverError = (): HttpResponse => ({
+  statusCode: 500,
+  body: new ServerError()
+})
+```
+
+📚 Aplicar no **signup.ts**
+```ts
+catch (error) {
+  return serverError()
+}
+```
+
+📚 Refatorar os protocols e errors, centralizando os imports no `index.ts`
+```ts
+import * from './<nome do arquivo>'
+```
+
+📚 Separar o `emailValidator` em factory
+```ts
+const makeEmailValidator = (): EmailValidator => {
+  class EmailValidatorStub implements EmailValidator {
+    isValid(email: string): boolean {
+      return true
+    }
+  }
+
+  return new EmailValidatorStub()
+}
+
+const makeEmailValidatorWithError = (): EmailValidator => {
+  class EmailValidatorStub implements EmailValidator {
+    isValid(_email: string): boolean {
+      throw new Error()
+    }
+  }
+
+  return new EmailValidatorStub()
+}
+```
 <br>
 
 # 👩‍💼 Autora
